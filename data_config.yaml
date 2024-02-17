@@ -1,0 +1,12 @@
+#images in png
+train_data_dir:"./head_ct"
+
+test_data_dir:"./test_head_ct"
+#image label file
+train_label:"./labels.csv"
+
+test_label:"./test_labels.csv"
+
+#label column definition
+img_col:"id"
+label_col:"hemorrhage"
