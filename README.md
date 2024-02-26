@@ -1,2 +1,2 @@
-# Nrcomm
-#Changing experience of shopping in the Africa.
+# rNecomm
+#Changing experience of shopping and booking events in the Africa.
