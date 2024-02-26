@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lorgX | Home |</title>
+    <link rel="stylesheet" href="zeecom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+  <body>
+             <!-- Main navbar -->
+
+     <section id="header">
+        <h4>lorg<span>X</span></h4> 
+    
+        <div class="nav-div">
+            <ul id="navbar">
+                <li><a href='Events.html'>Events</a></li>
+                <li><a href="book.html">Book Event</a></li>
+                <li><a href='createevent.html'>Create Event</a></li>
+                <li><a href='community.html'>Community</a></li>
+
+                </li>
+
+            </ul>
+        <div class="nav-icons">
+           <a href="cart.html"> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>           
+        </div>  
+        
+        </div>  
+    
+              
+   </section>
+     
+       <!-- The search bar, search button and the location -->
+                <div class=search-container id="search-container">
+                  <input type="text" id="input-search" placeholder="Ask for recommendations or search for places and events here">
+                     <button id="search-button">Search</button>
+                    <div class="location">
+                     <h4 id="direction"><img src="./icons/placeholder_684908.png"/>Lagos, NG</h4> 
+               </div></div>
+          <!-- Tabs for different event centres-->
+          <section id="section-p1">
+      
+               
+            <div id="place-category">
+         <a href="eventhall.html">Event Halls</a>
+         <a href="auditorium.html">Auditorium</a>
+         <a href="hotels.html">Hotels</a>
+         <a href="Parks.html">Parks</a>
+         <a href="Gardens.html">Gardens</a>
+         <a href="Restaurants">Restaurants</a>
+         <a href="Virtual.html">Virtual events</a>
+         <a href="Gallery.html">Art Gallery</a>
+         <a href="Cinema.html">Cinema</a>
+      </div>
+         </section>
+    
+
+   <section id="section-card">
+    <div class="body-container">
+     <!--nav side bar -->
+     <div id="section-sidenav">
+      <nav class="side-navbar" id="side-nav">
+         <a href="" class="label" ><img src="./icons/icons8-user-50.png" class="navbar-toggler" >profile</a>
+         <a href="" ><img src="./icons/icons8-live-video-on-30.png" class="navbar-toggler" >live</a>
+         <a href="" ><img src="./icons/icons8-message-50.png" class="navbar-toggler">messages</a>
+         <a href="" ><img src="./icons/icons8-add-50.png" class="navbar-toggler" >post</a>
+   
+         <a href="" ><img src="./icons/icons8-events-64.png" class="navbar-toggler" >events</a>
+         <a href="" class="saved-nav"><img src="./icons/icons8-like-50.png" class="navbar-toggler " >saved</a>
+   
+       </nav>
+      </div>
+             <!-- Event Cards -->
+             
+         
+      
+         <div class="card-container">
+             <div class="card" >
+              <a id="myImg" onClick="openModal()"><img src="./img/event4.jpg" class="card-img" alt="Event Place"/></a>
+               
+               <div class="card-body">
+                  <div class="card-title">
+                     <!--name of place-->
+                     <h5 style="color:crimson; font-weight:600;">The Place</h5>
+                     <p id="city-location1" class="city"style="color:#000; font-weight:500; font-size:17px"><img src="./icons/placeholder_684908.png"> Agege, Lagos</p>
+                     </div>
+                        <!--place description-->
+
+                     <div class="card-text">
+                        <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                     </div>
+                     <div class="card-description">
+                        <a href="" class="btn btn-primary">More Details</a>
+
+                          <p id="price"><span style="color:#000; font-weight:600;">&#8358; 90,000</span></p>
+
+                     </div>
+                     </div>
+                     
+                  </div>
+         
+             <div class="card">
+               <img src="./img/event1.jpg" class="card-img" alt="Event Place"/>
+               <div class="card-body">
+                  <div class="card-title">
+                     <h4>The Place</h4>
+                     <h5 id="price"><span>#90,000</span></h5>
+
+                     </div>
+                     <div class="card-text">
+                        <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                     </div>
+                     <div class="card-description">
+                        <a href="" class="btn btn-primary">More Details</a>
+                     </div>
+                  </div>
+               </div>
+                  <div class="card">
+                     <img src="./img/event2.jpg" class="card-img" alt="Event Place"/>
+                     <div class="card-body">
+                        <div class="card-title">
+                           <h4>The Place</h4>
+                           <h5 id="price"><span>#90,000</span></h5>
+
+                           </div>
+                           <div class="card-text">
+                              <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                           </div>
+                           <div class="card-description">
+                              <a href="" class="btn btn-primary">More Details</a>
+                           </div>
+                        </div>
+                     </div>
+                        
+                     <div class="card">
+                        <img src="./img/event3.jpg" class="card-img" alt="Event Place"/>
+                        <div class="card-body">
+                           <div class="card-title">
+                              <h4>The Place</h4>
+                              <h5 id="price"><span>#90,000</span></h5>
+
+                              </div>
+                              <div class="card-text">
+                                 <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                              </div>
+                              <div class="card-description">
+                                 <a href="" class="btn btn-primary">More Details</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <img src="./img/event4.jpg" class="card-img" alt="Event Place"/>
+                           <div class="card-body">
+                              <div class="card-title">
+                                 <h4>The Place</h4>
+                                 <h5 id="price"><span>#90,000</span></h5>
+
+                                 </div>
+                                 <div class="card-text">
+                                    <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                                 </div>
+                                 <div class="card-description">
+                                    <a href="" class="btn btn-primary">More Details</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="card">
+                              <img src="./img/event5.jpg" class="card-img" alt="Event Place"/>
+                              <div class="card-body">
+                                 <div class="card-title">
+                                    <h4>The Place</h4>
+                                    <h5 id="price"><span>#90,000</span></h5>
+
+                                    </div>
+                                    <div class="card-text">
+                                       <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                                    </div>
+                                    <div class="card-description">
+                                       <a href="" class="btn btn-primary">More Details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="card">
+                                 <img src="./img/event5.jpg" class="card-img" alt="Event Place"/>
+                                 <div class="card-body">
+                                    <div class="card-title">
+                                       <h4>The Place</h4>
+                                       <h5 id="price"><span>#90,000</span></h5>
+
+                                       </div>
+                                       <div class="card-text">
+                                          <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                                       </div>
+                                       <div class="card-description">
+                                          <a href="" class="btn btn-primary">More Details</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="card">
+                                    <img src="./img/event5.jpg" class="card-img" alt="Event Place"/>
+                                    <div class="card-body">
+                                       <div class="card-title">
+                                          <h4>The Place</h4>
+                                          <h5 id="price"><span>#90,000</span></h5>
+
+                                          </div>
+                                          <div class="card-text">
+                                             <p>The place is a where you get cool place with beach, to relax and intercontinental dishes at very affordable price</p>
+                                          </div>
+                                          <div class="card-description">
+                                             <a href="" class="btn btn-primary">More Details</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                              </div></div>
+     </section>
+        
+
+     
+     <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+        </div>
+        <div class="col-lg-4">
+          <!-- Sidebar or additional content -->
+        </div>
+      </div>
+    </div>
+
+     <section class="bg-light text-center"id="footer">
+         <p>&copy; 2024 LorgX</p>
+     </section>
+
+    <script src="zeecom.js"></script>
+    <script src="modal-swipe.js"></script>
+  </body>
+</html>
